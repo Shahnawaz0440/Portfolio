@@ -1,0 +1,43 @@
+/* Basic reset and styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Make the navbar sticky */
+  #nav.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #333; /* Adjust as needed */
+    padding: 10px 20px;
+  }
+  
+  /* Styling for navbar links */
+  .links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-right: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .icons {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icons li {
+    margin-left: 10px;
+  }
+  
